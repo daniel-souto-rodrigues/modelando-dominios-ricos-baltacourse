@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PaymentContext.domain.Entities
+namespace PaymentContext.Domain.Entities
 {
     public class Subscription
     {
