@@ -13,14 +13,8 @@ namespace PaymentContext.Tests.Entities
         {
             var subscription = new Subscription(null);
 
-            var student = new Student
-            (
-                new Name("Daniel", "Rodrigues"),
-                new Document("13164094012", EDocumentType.CPF),
-                new Email("testmail@gmail.com")
-            );
+            var name = new Name("Daniel", "Rodrigues");
 
-            student.AddSubscription(subscription);
         }
     }
 }
