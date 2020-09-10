@@ -21,7 +21,7 @@ namespace PaymentContext.Domain.Commands
         public Decimal Total { get; set; }
         public Decimal TotalPaid { get; set; }
         public Address Address { get; set; }
-        public Document PayerDocument { get; set; }
+        public string PayerDocument { get; set; }
         public EDocumentType PayerDocumentType { get; set; }
         public string Payer { get; set; }
         public string PayerEmail { get; set; }
